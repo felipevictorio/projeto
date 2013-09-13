@@ -7,3 +7,5 @@ var/
 eggs/
 parts/
 develop-eggs/
+*.egg
+src/optilux.policy/optilux.policy.egg-info/
