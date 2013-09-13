@@ -1,4 +1,4 @@
-*./pyc
+*.pyc
 *.pyo
 .installed.cfg
 .mr.developer.cfg
@@ -7,3 +7,5 @@ var/
 eggs/
 parts/
 develop-eggs/
+optilux.policy.egg-info/
+*.egg
