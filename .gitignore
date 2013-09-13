@@ -6,3 +6,4 @@ bin/
 var/
 eggs/
 parts/
+develop-eggs/
