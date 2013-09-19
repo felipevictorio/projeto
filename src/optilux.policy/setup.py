@@ -5,7 +5,7 @@ version = '2.0'
 
 setup(name='optilux.policy',
       version=version,
-      description="Produto customizado para os Cinemas Optilux",
+      description="Policy package for the Optilux Cinemas project",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
@@ -25,11 +25,10 @@ setup(name='optilux.policy',
       zip_safe=False,
       install_requires=[
           'setuptools',
-	  'Plone',
-          # -*- Extra requirements: -*-
+          'Plone',
       ],
       extras_require={
-         'test': ['plone.app.testing',]
+          'test': ['plone.app.testing',]
       },
       entry_points="""
       # -*- Entry points: -*-
@@ -37,6 +36,7 @@ setup(name='optilux.policy',
       [z3c.autoinclude.plugin]
       target = plone
       """,
- #     setup_requires=["PasteScript"],
- #     paster_plugins=["ZopeSkel"],
+# uncomment these to re-enable support for Paster local commands
+#     setup_requires=["PasteScript"],
+#     paster_plugins=["ZopeSkel"],
       )
