@@ -23,6 +23,8 @@
     <depends name="rolemap"/>
   </genericsetup:importStep>
 
+  <includeDependencies package="." />
+
   <!-- -*- extra stuff goes here -*- -->
   
 </configure>
